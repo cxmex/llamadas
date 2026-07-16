@@ -76,9 +76,7 @@ def page(title: str, body: str) -> HTMLResponse:
   .btn {{ display:inline-block; padding:12px 30px; margin:8px; border:none; border-radius:8px;
           font-size:16px; font-weight:600; cursor:pointer; text-decoration:none; color:#fff; transition:transform 0.1s; }}
   .btn:hover {{ transform:scale(1.05); }}
-  .btn-luis {{ background:#1a73e8; }}
-  .btn-nayeli {{ background:#e91e63; }}
-  .btn-marcos {{ background:#ff9800; }}
+  .btn-natanael {{ background:#1a73e8; }}
   .btn-submit {{ background:#4caf50; padding:10px 25px; }}
   .btn-next {{ background:#1a73e8; padding:10px 25px; margin-top:15px; }}
   .btn-sm {{ padding:8px 16px; font-size:14px; margin:4px; }}
@@ -131,9 +129,7 @@ def home():
         <h1>Llamadas CRM</h1>
         <p style="font-size:18px; color:#666; margin-bottom:30px;">Selecciona tu nombre para comenzar</p>
         <div>
-            <a href="/dashboard/LUIS" class="btn btn-luis">LUIS</a>
-            <a href="/dashboard/NAYELI" class="btn btn-nayeli">NAYELI</a>
-            <a href="/dashboard/MARCOS" class="btn btn-marcos">MARCOS</a>
+            <a href="/dashboard/NATANAEL" class="btn btn-natanael">NATANAEL</a>
         </div>
         <div style="margin-top:40px;">
             <a href="/stats" class="btn btn-stats">Estadisticas Generales</a>
