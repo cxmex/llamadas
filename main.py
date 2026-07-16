@@ -9,7 +9,7 @@ from database import supabase_get, supabase_post, supabase_patch, supabase_head
 
 app = FastAPI(title="Llamadas CRM")
 
-USERS = ["LUIS", "NAYELI", "MARCOS"]
+USERS = ["NATANAEL"]
 BATCH_SIZE = 10
 
 STATUS_OPTIONS = [
